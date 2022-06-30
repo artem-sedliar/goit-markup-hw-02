@@ -76,3 +76,23 @@
 .list-text {
   color: var(--primary-text-color);
 }
+/* hero-button */
+.button.primary {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.button.primary :hover,
+.button.primary :focus {
+  color: var(--accent-color);
+}
+/* btn */
+.button {
+  color: var(--title-text-color);
+  background-color: var(--background-color-team);
+}
+
+.button :hover,
+.button :focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
