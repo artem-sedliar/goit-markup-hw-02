@@ -1,0 +1,78 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --background-color-footer-hero: #2f303a;
+  --white-color: #ffffff;
+  --footer-contact-color: rgba(255, 255, 255, 0.6);
+  --background-color-team: #f5f4fa;
+}
+.page {
+  color: var(--primary-text-color);
+}
+/* вторичный цвет текста черный #212121 */
+/* основной цвет текста серый #757575 */
+/* цвет выделений синий #2196F3 */
+/*  цвет контактов в футере прозрачно белый rgba(255, 255, 255, 0.6) */
+/* цвет слогана герой белый #FFFFFF */
+/* фон в футере и герое серый background: #2F303A; */
+
+/* header nav */
+.link {
+  color: var(--title-text-color);
+}
+.link :hover,
+.link :focus {
+  color: var(--accent-color);
+}
+/* header contacts */
+.hat-link {
+  color: var(--primary-text-color);
+}
+.hat-link :hover,
+.hat-link :focus {
+  color: var(--accent-color);
+}
+/* hero */
+.hero {
+  background: var(--background-color-footer-hero);
+}
+.hero-title {
+  color: var(--white-color);
+}
+/* section text */
+.text-subtitle {
+  color: var(--title-text-color);
+}
+/* section image */
+.image-subtitle {
+  color: var(--title-text-color);
+}
+/* section team */
+.items {
+  background: var(--background-color-team);
+}
+.items-name {
+  color: var(--title-text-color);
+}
+/* footer */
+.basement {
+  background: var(--background-color-footer-hero);
+}
+.map {
+  color: var(--white-color);
+}
+.contact-cellar {
+  color: var(--footer-contact-color);
+}
+.contact-cellar :hover,
+.contact-cellar :focus {
+  color: var(--accent-color);
+}
+/* main container */
+.icon-subtitle {
+  color: var(--title-text-color);
+}
+.list-text {
+  color: var(--primary-text-color);
+}
