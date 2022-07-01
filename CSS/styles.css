@@ -6,6 +6,7 @@
   --white-color: #ffffff;
   --footer-contact-color: rgba(255, 255, 255, 0.6);
   --background-color-team: #f5f4fa;
+  --black-color: #000000;
 }
 .page {
   color: var(--primary-text-color);
@@ -17,13 +18,35 @@
 /*  цвет контактов в футере прозрачно белый rgba(255, 255, 255, 0.6) */
 /* цвет слогана герой белый #FFFFFF */
 /* фон в футере и герое серый background: #2F303A; */
+/* Raleway – 700 Roboto – 400, 500, 700 и 900 */
 
+/* logo */
+.web {
+  color: var(--accent-color);
+}
+.studio {
+  color: var(--black-color);
+}
+.studio-footer {
+  color: var(--white-color);
+}
 /* header nav */
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
 .link.current {
   color: var(--accent-color);
 }
 .link {
   color: var(--title-text-color);
+}
+.hat {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
 }
 .link :hover,
 .link :focus {
@@ -40,17 +63,54 @@
 /* hero */
 .hero {
   background: var(--background-color-footer-hero);
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+}
+.button.primary {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  cursor: pointer;
 }
 .hero-title {
   color: var(--white-color);
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 /* section text */
 .text-subtitle {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+}
+.text-slogan {
+  font-size: 14px;
+  line-height: 1.2;
 }
 /* section image */
 .image-subtitle {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
 }
 /* section team */
 .items {
@@ -65,9 +125,13 @@
 }
 .map {
   color: var(--white-color);
+  font-size: 14px;
+  line-height: 1.7;
 }
 .contact-cellar {
   color: var(--footer-contact-color);
+  font-size: 14px;
+  line-height: 1.7;
 }
 .contact-cellar :hover,
 .contact-cellar :focus {
@@ -76,9 +140,14 @@
 /* main container */
 .icon-subtitle {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
 }
 .list-text {
   color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.8;
 }
 /* hero-button */
 .button.primary {
@@ -93,10 +162,17 @@
 .button {
   color: var(--title-text-color);
   background-color: var(--background-color-team);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  cursor: pointer;
 }
 
 .button :hover,
 .button :focus {
   color: var(--white-color);
   background-color: var(--accent-color);
+}
+.list {
+  list-style: none;
 }
