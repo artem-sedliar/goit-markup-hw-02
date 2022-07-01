@@ -105,7 +105,7 @@
   line-height: 1.71;
 }
 /* section image */
-.image-subtitle {
+.items-subtitle {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -113,9 +113,6 @@
   text-align: center;
 }
 /* section team */
-.items {
-  background: var(--background-color-team);
-}
 .items-name {
   color: var(--title-text-color);
   font-weight: 500;
